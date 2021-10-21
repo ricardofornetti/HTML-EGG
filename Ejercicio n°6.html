@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrar un usuario</h1>
+    <form action="/Formulario" method="POST">
+        <label for="nombre">Nombre de Usuario</label>
+        <br>        
+        <input id="nombre" type="text" name="valorNombre" >
+        <br>
+        <br>
+        <label for="contraseña">Contraseña</label>
+        <br>        
+        <input id="contraseña" type="password" name="valorContraseña" >
+        <br>
+        <br>
+        <label for="edad">Edad</label>
+        <br>
+        <input id="edad" type="number" name="valorEdad" >
+        <br>
+        <br>
+        <label for="fechacac">Fecha de Nac</label>
+        <br>
+        <input id="fechanac" type="date" name="valorFechaNac" >
+        <br>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    
+        <p>Sexo</p> 
+        <input type="radio" id="masculino" name="sexo" value="1">   
+        <label for="masculino">Masculino</label>    
+        <br>
+        <input type="radio" id="fenenino" name="sexo" value="2">
+        <label for="femenino">Femenino</label>    
+        <br>
+        <input type="radio" id="indefinido" name="sexo" value="2">
+        <label for="indefinido">Indefinido</label>
+        <br>
+        <br>
+    
+        <label for="">Pais nacimiento del usuario</label>
+        <br>
+        <br>
+        <select name="pais">
+        <option value="undefined" selected disabled>-- Seleccione una opcion --</option>
+        <option>Argentina</option>
+        <option>Brasil</option>
+        </select>
+        <br>
+        <br>
+     <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form> 
+    
+</body>
+</html>
+

@@ -1,0 +1,16 @@
+body{
+    background-color: darkblue;
+}
+a:link{
+    color: #CC0000;
+}
+a:visited{
+    color: #CCC;
+}
+a:hover{
+    background: #CC0000;
+    color:#FFF;
+}
+a:active{
+    color: #CCC;
+}

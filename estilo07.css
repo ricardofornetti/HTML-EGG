@@ -1,0 +1,38 @@
+body {
+    /*--COLOR DE FONDO*/
+        background-color: blue;
+        font-family: Arial;
+        color:white;
+    }
+
+h1 {
+    /*--COLOR ENCABEZADO*/
+    color:rgb(100, 200, 11);
+
+     /*--TIPO FUENTE*/
+     font-family: Arial;
+     color: white;
+     text-align: center;
+}
+
+p {
+
+    font-family:Arial, Helvetica;
+    font-weight: normal;
+    font-family: 'strong';
+    color: yellow;
+    text-align: left;
+
+
+}
+
+h2 {
+    /*--COLOR ENCABEZADO*/
+    color:rgb(1,1,1);
+
+    font-family:'Oswald';
+    font-family: cursive;
+
+    text-align: right;
+}
+

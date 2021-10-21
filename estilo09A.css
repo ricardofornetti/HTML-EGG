@@ -1,0 +1,24 @@
+li {
+    list-style: none;
+}
+i {
+    margin: 0 0.5em;
+    color: green;
+}
+
+p {
+    text-align: center;
+  
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategray;
+    display: block;
+    padding: 0;
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+    max-width: min-content;
+}
+
